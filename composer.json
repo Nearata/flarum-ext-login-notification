@@ -1,0 +1,35 @@
+{
+    "name": "nearata/flarum-ext-login-notification",
+    "description": "No desc",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "Unlicense",
+    "require": {
+        "flarum/core": "^1.6.0"
+    },
+    "authors": [
+        {
+            "name": "Nearata",
+            "email": "nearata@protonmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nearata\\LoginNotification\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Login Notification",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-sign-in-alt",
+                "color": "#fff",
+                "backgroundColor": "#000"
+            }
+        }
+    }
+}
