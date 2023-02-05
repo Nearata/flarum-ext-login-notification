@@ -1,8 +1,18 @@
 nearata-login-notification:
-  # For more details on the format
-  # Checkout https://docs.flarum.org/extend/i18n/#appendix-a-standard-key-format
-  admin:
-    my_cool_key: My Cool Key
-
   forum:
-    my_cool_key: My Cool Key
+    settings:
+      switch_label: Send an email on a successful login
+  email:
+    device_not_available: Not Available
+    subject: New Login
+    body: |
+      Hey {user_display_name},
+
+      We send you this e-amil after a successful login to your account
+
+      Email: {user_email}
+      IP Address: {ip_address}
+      Date and time: {datetime}
+      Device, platform, browser: {device}, {platform}, {browser}
+
+      If it was you who logged into your account, ignore this e-mail.
