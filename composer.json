@@ -1,6 +1,6 @@
 {
     "name": "nearata/flarum-ext-login-notification",
-    "description": "No desc",
+    "description": "Allows the user to choose whether to receive an email when a login occurs",
     "keywords": [
         "flarum"
     ],

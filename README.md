@@ -1,6 +1,6 @@
 # Login Notification
 
-> No desc
+> Allows the user to choose whether to receive an email when a login occurs
 
 ## Install
 
